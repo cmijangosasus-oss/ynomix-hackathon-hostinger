@@ -46,3 +46,7 @@ Detalle criterio por criterio en [evidencia/autoevaluacion.md](evidencia/autoeva
 - Los productos de pago están en etapa de lista de espera; el sitio no muestra testimonios ni cifras de usuarios que no existan.
 - El `robots.txt` lo genera y protege Hostinger AI Builder y no se puede editar: bloquea rastreadores de entrenamiento (GPTBot, ClaudeBot, Google-Extended) y permite los de búsqueda y respuestas. Ver [decisiones.md](decisiones.md).
 - Los perfiles de YouTube, Instagram y TikTok aún no existen, por eso no se enlazan.
+
+## Código de la página (`sitio-html/`)
+
+El sitio se construyó con el AI Builder de Hostinger, que no entrega el código fuente del proyecto. Esta carpeta contiene una copia del código **publicado** (lo que recibe el navegador): el HTML de las 7 páginas y los archivos CSS/JS compilados desde `ynomix.com`, descargados el 15 de noviembre de 2026.
