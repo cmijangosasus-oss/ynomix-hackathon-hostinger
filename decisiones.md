@@ -13,7 +13,7 @@ Los perfiles de YouTube, Instagram y TikTok todavía no existen. Se quitaron los
 La calculadora consulta un servicio interno del sitio (`/api/convert`) que devuelve las tasas de USD, EUR, COP y MXN junto con la fecha de actualización, que se muestra junto al resultado. Es una referencia informativa, no una cotización de compra o venta.
 
 ## Botones y enlaces
-Los botones de producto llevaban a enlaces `mailto:`, que en equipos sin programa de correo abren un cuadro de diálogo. Se cambiaron para llevar a la página de cada producto, y todas las páginas se enlazan entre sí. Un primer escaneo de Bing Site Scan solo encontró 2 páginas por este motivo; se corrigió y se volvió a lanzar el escaneo.
+Los botones de producto llevaban a enlaces `mailto:`, que en equipos sin programa de correo abren un cuadro de diálogo. Se cambiaron para llevar a la página de cada producto, y todas las páginas se enlazan entre sí. Un primer escaneo de Bing Site Scan solo encontró 2 páginas por este motivo; se corrigió y se volvió a lanzar el escaneo, que ahora recorre las 7 páginas con 0 errores y 0 advertencias.
 
 ## robots.txt (limitación de la plataforma)
 Hostinger AI Builder genera el `robots.txt` y la ruta está protegida: no se pueden añadir reglas. El archivo publicado:
