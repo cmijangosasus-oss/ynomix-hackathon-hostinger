@@ -35,6 +35,6 @@ Fecha de la revisión: 15 de noviembre de 2026. Sitio: https://ynomix.com (7 pá
 ## Otras comprobaciones
 
 - **Google Search Console:** propiedad verificada, sitemap enviado e indexación solicitada.
-- **Bing Webmaster Tools:** sitio importado; sitemap con 7 URLs descubiertas. Un primer Site Scan terminó con 0 errores y 0 advertencias, pero solo recorrió 2 páginas porque los botones de producto eran enlaces `mailto:`; se corrigió y se volvió a lanzar.
+- **Bing Webmaster Tools:** sitio importado; sitemap con 7 URLs descubiertas. Un primer Site Scan terminó con 0 errores y 0 advertencias, pero solo recorrió 2 páginas porque los botones de producto eran enlaces `mailto:`; se corrigió y se volvió a lanzar. El segundo Site Scan (15 de noviembre de 2026) recorrió las **7 páginas** con **0 errores y 0 advertencias**.
 - **Google Business Profile:** creado y verificado.
 - **Pendiente menor:** el contraste de color de los números de las listas (accesibilidad 94).
