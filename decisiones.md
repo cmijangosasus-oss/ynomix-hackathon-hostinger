@@ -26,3 +26,7 @@ Este criterio queda registrado como "a medias" en la autoevaluación.
 
 ## Datos de identidad (iguales en todas las páginas y en el JSON-LD)
 YnomiX · Carlos Mijangos · Bogotá, Colombia · soporte@ynomix.com
+
+## Nota sobre robots.txt (confirmada en el código fuente)
+
+En `codigo-fuente/apps/web/src/routes/robots.txt.ts` (generado por la plataforma) la política es explícita: los buscadores y asistentes de respuesta (OAI-SearchBot, ChatGPT-User, Claude-SearchBot, Claude-User, PerplexityBot, etc.) quedan permitidos, y solo se bloquean los agentes de entrenamiento de modelos (GPTBot, ClaudeBot, Google-Extended, Applebot-Extended, meta-externalagent, Amazonbot, Bytespider), con `Content-Signal: search=yes, ai-input=yes, ai-train=no`. Es un valor por defecto de la plataforma y no se pudo cambiar desde el AI Builder.

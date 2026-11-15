@@ -47,6 +47,7 @@ Detalle criterio por criterio en [evidencia/autoevaluacion.md](evidencia/autoeva
 - El `robots.txt` lo genera y protege Hostinger AI Builder y no se puede editar: bloquea rastreadores de entrenamiento (GPTBot, ClaudeBot, Google-Extended) y permite los de búsqueda y respuestas. Ver [decisiones.md](decisiones.md).
 - Los perfiles de YouTube, Instagram y TikTok aún no existen, por eso no se enlazan.
 
-## Código de la página (`sitio-html/`)
+## Código de la página
 
-El sitio se construyó con el AI Builder de Hostinger, que no entrega el código fuente del proyecto. Esta carpeta contiene una copia del código **publicado** (lo que recibe el navegador): el HTML de las 7 páginas y los archivos CSS/JS compilados desde `ynomix.com`, descargados el 15 de noviembre de 2026.
+- **`codigo-fuente/`**: proyecto original exportado desde Hostinger Horizons (React Router + Vite + Tailwind, TypeScript). Es el código con el que se construyó y publicó el sitio. Se retiró únicamente el archivo `.env` (solo contenía comentarios, sin claves).
+- **`sitio-html/`**: copia del código **publicado** (HTML de las 7 páginas y CSS/JS compilados descargados de `ynomix.com` el 15 de noviembre de 2026), como evidencia de lo que recibe el navegador.
