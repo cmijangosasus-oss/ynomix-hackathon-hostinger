@@ -27,6 +27,7 @@ export function meta({ matches, location }: Route.MetaArgs) {
 					email: 'soporte@ynomix.com',
 					founder: { '@type': 'Person', name: 'Carlos Mijangos' },
 					address: { '@type': 'PostalAddress', addressLocality: 'Bogotá', addressCountry: 'CO' },
+					sameAs: ['https://www.youtube.com/@ynomix', 'https://x.com/YnomiX'],
 				},
 			},
 			{

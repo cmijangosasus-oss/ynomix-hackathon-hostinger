@@ -22,6 +22,7 @@ export function loader({ request }: Route.LoaderArgs) {
 		`- [ConvertiX](${origin}/convertix): Conversor de divisas gratuito con tasas actualizadas cada día (USD, COP, MXN, EUR).`,
 		`- [DigiMoneY](${origin}/digimoney): Espacio gratuito para aprender blockchain con noticias y recursos educativos.`,
 		`- [Acerca de y contacto](${origin}/acerca-de): Carlos Mijangos, fundador en Bogotá, Colombia. Contacto: soporte@ynomix.com.`,
+		`- [Política de privacidad](${origin}/privacidad): Qué datos recibe YnomiX, para qué se usan y cómo ejercer tus derechos.`,
 	];
 
 	return new Response(`${lines.join('\n')}\n`, {

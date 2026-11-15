@@ -8,6 +8,7 @@ export default [
 	route('convertix', 'routes/convertix.tsx'),
 	route('digimoney', 'routes/digimoney.tsx'),
 	route('acerca-de', 'routes/about.tsx'),
+	route('privacidad', 'routes/privacidad.tsx'),
 	route('api/convert', 'routes/api.convert.ts'),
 	route('llms.txt', 'routes/llms.txt.ts'),
 	route('sitemap.xml', 'routes/sitemap.xml.ts'),

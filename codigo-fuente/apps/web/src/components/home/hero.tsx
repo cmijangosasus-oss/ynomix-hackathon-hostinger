@@ -17,7 +17,7 @@ const strings: Record<Locale, {
 		note: 'Para ti. Para tu grupo. Para tu familia.',
 		h1: ['YnomiX: herramientas para ', 'entender y manejar', ' tu dinero'],
 		description: 'Tu dinero, con perspectiva. Qadrax registra cómo lo usas; AddiX monitorea tus ahorros e inversiones; InfoX resume las noticias financieras. ConvertiX y DigiMoneY son gratuitos.',
-		primary: 'Probar Qadrax 15 días gratis',
+		primary: 'Anotarme en la lista de Qadrax',
 		secondary: 'Ver todos los productos',
 		footnote: 'Herramientas independientes. Un propósito en común.',
 		stats: [

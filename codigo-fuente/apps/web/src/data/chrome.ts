@@ -26,7 +26,7 @@ export const chrome: Record<Locale, {
 		navPricing: 'Precios',
 		navFaq: 'Preguntas frecuentes',
 		navAbout: 'Acerca de y contacto',
-		headerCta: 'Prueba Qadrax',
+		headerCta: 'Lista de espera',
 		skipLink: 'Ir al contenido',
 		footerTagline: 'Más claridad para tu dinero.',
 		footerContact: 'CONTACTO',

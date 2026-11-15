@@ -10,3 +10,4 @@
 - [ConvertiX](https://ynomix.com/convertix): Conversor de divisas gratuito con tasas actualizadas cada día (USD, COP, MXN, EUR).
 - [DigiMoneY](https://ynomix.com/digimoney): Espacio gratuito para aprender blockchain con noticias y recursos educativos.
 - [Acerca de y contacto](https://ynomix.com/acerca-de): Carlos Mijangos, fundador en Bogotá, Colombia. Contacto: soporte@ynomix.com.
+- [Política de privacidad](https://ynomix.com/privacidad): Qué datos recibe YnomiX, para qué se usan y cómo ejercer tus derechos.

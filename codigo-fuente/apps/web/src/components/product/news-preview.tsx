@@ -3,7 +3,7 @@ import { useLocale, type Locale } from '@/lib/i18n';
 import { infoxNewsExample } from '@/data/product-pages';
 
 const strings: Record<Locale, { eyebrow: string; heading: string; sub: string; link: string }> = {
-	es: { eyebrow: 'ASÍ SE VE UN INFORME', heading: 'Una noticia resumida, de ejemplo.', sub: 'Así condensa InfoX lo esencial\npara tu bolsillo.', link: 'Obtener el reporte completo con Qadrax' },
+	es: { eyebrow: 'ASÍ SE VE UN INFORME', heading: 'Una noticia resumida, de ejemplo.', sub: 'Así condensa InfoX lo esencial\npara tu bolsillo.', link: 'Anotarme en la lista de Qadrax' },
 	en: { eyebrow: 'WHAT A REPORT LOOKS LIKE', heading: 'A summarized news story, as an example.', sub: 'This is how InfoX condenses the essentials\nfor your wallet.', link: 'Get the full report with Qadrax' },
 };
 

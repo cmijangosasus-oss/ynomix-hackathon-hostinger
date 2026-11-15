@@ -37,7 +37,7 @@ export const productPages: Record<Locale, Record<'qadrax' | 'addix' | 'infox', P
 			eyebrow: 'TRAZABILIDAD DEL USO DE TU DINERO',
 			h1: 'Qadrax: sabe en qué se va tu dinero',
 			intro:
-				'Qadrax es la app de YnomiX para la trazabilidad del uso del dinero de personas, grupos y familias. Registra tus movimientos, te muestra tus hábitos de gasto y te ayuda a decidir con más claridad. Está pensada para quien quiere entender a dónde va su dinero cada mes.',
+				'Qadrax es la app de YnomiX para la trazabilidad del uso del dinero de personas, grupos y familias. Registra tus movimientos, te muestra tus hábitos de gasto y te ayuda a decidir con más claridad. Está pensada para quien quiere entender a dónde va su dinero cada mes. Qadrax funciona en celular, computador y tableta, y necesitas una cuenta de Google, porque tus registros se guardan en el Google Drive de tu propia cuenta.',
 			tag: 'Prueba 15 días',
 			waitlistLink: '/acerca-de#contacto',
 			waitlistLabel: 'Unirme a la lista de espera',
@@ -48,7 +48,7 @@ export const productPages: Record<Locale, Record<'qadrax' | 'addix' | 'infox', P
 				'Los clientes de pago reciben los reportes de InfoX incluidos.',
 			],
 			steps: [
-				{ title: 'Solicita tu prueba de 15 días', detail: 'Escríbenos a soporte y te indicamos cómo activar tu acceso de prueba sin costo.' },
+				{ title: 'Solicita tu prueba de 15 días', detail: 'Escríbenos a soporte y te anotamos en la lista de espera; la prueba gratuita comienza cuando abramos tu acceso.' },
 				{ title: 'Registra tus movimientos', detail: 'Anota tus ingresos y gastos en categorías para que Qadrax los organice por ti.' },
 				{ title: 'Revisa tus hábitos y decide', detail: 'Observa los patrones que aparecen y toma decisiones con más perspectiva.' },
 			],
@@ -58,14 +58,16 @@ export const productPages: Record<Locale, Record<'qadrax' | 'addix' | 'infox', P
 				{ plan: '1 año', price: 'USD 39', note: 'Incluye los reportes de InfoX.' },
 			],
 			question: {
-				heading: '¿Para quién es Qadrax?',
+				heading: '¿Para\u00a0 quién es Qadrax?',
 				answer:
 					'Qadrax es para personas, grupos y familias que quieren entender en qué se va su dinero. Sirve tanto para llevar un control personal como para organizar los gastos compartidos de un grupo o un hogar, con una vista clara de los hábitos de uso.',
 			},
 			faqs: [
 				{ question: '¿Qadrax incluye InfoX?', answer: 'Sí. Los clientes de pago de Qadrax reciben los reportes de InfoX incluidos, sin costo adicional.' },
 				{ question: '¿Puedo usar Qadrax con mi familia?', answer: 'Sí. Qadrax está pensado para uso personal, grupal o familiar, para que varios puedan llevar el registro juntos.' },
-				{ question: '¿La prueba de 15 días tiene algún costo?', answer: 'No. La prueba de Qadrax es gratuita durante 15 días para que decidas si se ajusta a tus necesidades.' },
+				{ question: '¿La prueba de 15 días tiene algún costo?', answer: 'No. La prueba de Qadrax es gratuita durante 15 días y comienza cuando se abre tu acceso.' },
+				{ question: '¿En qué dispositivos funciona Qadrax?', answer: 'Qadrax funciona en celular, computador y tableta. Puedes registrar tus movimientos desde el dispositivo que tengas a la mano.' },
+				{ question: '¿Necesito una cuenta de Google para usar Qadrax?', answer: 'Sí. Necesitas una cuenta de Google, porque tus registros se guardan en el Google Drive de tu propia cuenta.' },
 			],
 			related: [
 				{ label: 'AddiX', href: '/addix', description: 'Monitorea ahorros e inversiones.' },
@@ -94,7 +96,7 @@ export const productPages: Record<Locale, Record<'qadrax' | 'addix' | 'infox', P
 				'Vista clara de lo que estás construyendo a lo largo del tiempo.',
 			],
 			steps: [
-				{ title: 'Solicita tu prueba de 15 días', detail: 'Escríbenos a soporte y te explicamos cómo activar AddiX durante la prueba gratuita.' },
+				{ title: 'Solicita tu prueba de 15 días', detail: 'Escríbenos a soporte@ynomix.com para anotarte en la lista de espera; la prueba gratuita de 15 días comienza cuando se abra tu acceso a AddiX.' },
 				{ title: 'Carga tus ahorros e inversiones', detail: 'Registra tus cuentas, metas y movimientos para que AddiX los monitoree.' },
 				{ title: 'Da seguimiento a tus metas', detail: 'Revisa tu progreso y ajusta tus decisiones según lo que veas.' },
 			],
@@ -111,7 +113,7 @@ export const productPages: Record<Locale, Record<'qadrax' | 'addix' | 'infox', P
 			faqs: [
 				{ question: '¿AddiX funciona junto con Qadrax?', answer: 'No es necesario. AddiX es independiente de Qadrax y puedes usarlo por separado, con sus propios precios.' },
 				{ question: '¿AddiX sirve para un grupo o una familia?', answer: 'Sí. AddiX está pensado para personas, grupos o familias que quieren dar seguimiento a sus ahorros e inversiones.' },
-				{ question: '¿Cuánto cuesta AddiX?', answer: 'AddiX cuesta USD 15 por 6 meses o USD 25 al año, con una prueba gratuita de 15 días antes de decidir.' },
+				{ question: '¿Cuánto cuesta AddiX?', answer: 'AddiX cuesta USD 15 por 6 meses o USD 25 al año, con una prueba gratuita de 15 días que comienza cuando se abre tu acceso.' },
 			],
 			related: [
 				{ label: 'Qadrax', href: '/qadrax', description: 'Registro del uso del dinero.' },
@@ -132,7 +134,7 @@ export const productPages: Record<Locale, Record<'qadrax' | 'addix' | 'infox', P
 				'InfoX resume con IA las noticias financieras que afectan tu bolsillo y te envía un informe los martes y los viernes, para que no tengas que leerlo todo. Está pensado para personas, grupos y familias que quieren estar informados sin perder tiempo. Se incluye con Qadrax de pago.',
 			tag: 'Incluido en Qadrax',
 			waitlistLink: '/qadrax',
-			waitlistLabel: 'Obtener el reporte completo con Qadrax',
+			waitlistLabel: 'Anotarme en la lista de Qadrax',
 			benefits: [
 				'Resumen con IA de las noticias financieras más relevantes.',
 				'Dos informes por semana: los martes y los viernes.',
@@ -140,7 +142,7 @@ export const productPages: Record<Locale, Record<'qadrax' | 'addix' | 'infox', P
 				'Incluido con Qadrax de pago, sin costo adicional.',
 			],
 			steps: [
-				{ title: 'Activa Qadrax de pago', detail: 'InfoX se incluye con Qadrax de pago, así que empieza por activar tu acceso a Qadrax.' },
+				{ title: 'Anótate en la lista de Qadrax', detail: 'InfoX se incluye con Qadrax de pago y comienza cuando se abre tu acceso a Qadrax. Hoy puedes anotarte en la lista de espera escribiendo a soporte.' },
 				{ title: 'Recibe los informes', detail: 'Cada martes y viernes te llega un resumen con las noticias financieras destacadas.' },
 				{ title: 'Decide con información', detail: 'Usa lo resumido para complementar el registro de tu dinero y decidir con calma.' },
 			],
@@ -159,7 +161,7 @@ export const productPages: Record<Locale, Record<'qadrax' | 'addix' | 'infox', P
 				{ question: '¿Puedo usar InfoX sin Qadrax?', answer: 'InfoX se incluye con Qadrax de pago. Para recibir los reportes necesitas un acceso de pago a Qadrax.' },
 			],
 			related: [
-				{ label: 'Qadrax', href: '/qadrax', description: 'Activa Qadrax para recibir InfoX.' },
+				{ label: 'Qadrax', href: '/qadrax', description: 'Anótate en la lista de Qadrax para recibir InfoX cuando se abra tu acceso.' },
 				{ label: 'AddiX', href: '/addix', description: 'Monitorea ahorros e inversiones.' },
 				{ label: 'Inicio', href: '/', description: 'Volver al inicio de YnomiX.' },
 			],

@@ -26,11 +26,13 @@ decisiones.md         decisiones de diseño y limitaciones conocidas
 assets/               logos de YnomiX
 ```
 
-## Resultados principales (Lighthouse móvil, 14 nov 2026)
+## Resultados principales (inicio, Lighthouse móvil, 15 nov 2026, sitio final)
 
 | Rendimiento | LCP | CLS | Accesibilidad | Buenas prácticas | SEO |
 |---|---|---|---|---|---|
-| 98 | 2.0 s | 0 | 94 | 100 | 100 |
+| 93 | 2.6 s | 0.023 | 100 | 100 | 100 |
+
+Además, el AI Visibility Checker de Hostinger dio 81/100 (B) tras las correcciones (73 al inicio, 79 después del 404 y el sitemap). Informes en `evidencia/`.
 
 Detalle criterio por criterio en [evidencia/autoevaluacion.md](evidencia/autoevaluacion.md).
 
@@ -50,4 +52,4 @@ Detalle criterio por criterio en [evidencia/autoevaluacion.md](evidencia/autoeva
 ## Código de la página
 
 - **`codigo-fuente/`**: proyecto original exportado desde Hostinger Horizons (React Router + Vite + Tailwind, TypeScript). Es el código con el que se construyó y publicó el sitio. Se retiró únicamente el archivo `.env` (solo contenía comentarios, sin claves).
-- **`sitio-html/`**: copia del código **publicado** (HTML de las 7 páginas y CSS/JS compilados descargados de `ynomix.com` el 15 de noviembre de 2026), como evidencia de lo que recibe el navegador.
+- **`sitio-html/`**: copia del código **publicado** (HTML de las 8 páginas y CSS/JS compilados descargados de `ynomix.com` el 15 de noviembre de 2026), como evidencia de lo que recibe el navegador.

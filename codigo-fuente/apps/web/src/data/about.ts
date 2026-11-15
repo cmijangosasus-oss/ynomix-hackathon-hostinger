@@ -67,8 +67,8 @@ export const aboutData: Record<Locale, {
 		location: 'Bogotá, Colombia',
 		ctaEyebrow: 'TU PRÓXIMO PASO',
 		ctaTitle: 'Empieza por entender tu dinero.',
-		ctaText: 'Conoce Qadrax durante 15 días gratis y decide con calma.',
-		ctaButton: 'Probar Qadrax 15 días gratis',
+		ctaText: 'Anótate en la lista de Qadrax y recibe 15 días gratis cuando se abra tu acceso.',
+		ctaButton: 'Anotarme en la lista de Qadrax',
 	},
 	en: {
 		metaTitle: 'About YnomiX and contact with Carlos Mijangos in Bogotá',

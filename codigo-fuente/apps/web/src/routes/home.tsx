@@ -8,7 +8,6 @@ import { Answers } from '@/components/home/answers';
 import { Faq } from '@/components/home/faq';
 import { About } from '@/components/home/about';
 import { faqs } from '@/data/products';
-import { socialLinks } from '@/data/about';
 
 const META = {
 	es: {
@@ -31,7 +30,7 @@ export function meta({ matches, location }: Route.MetaArgs) {
 		image: 'https://images.hostinger.com/b99ae3ca-b659-4117-9d33-00646825d1bd/e69dd672-e1a2-4380-8fb4-455162e72dea.png',
 		jsonLd: [
 			{ '@context': 'https://schema.org', '@type': 'WebSite', name: 'YnomiX', url: homeUrl, description: META[locale].description, inLanguage: locale },
-			{ '@context': 'https://schema.org', '@type': 'Organization', name: 'YnomiX', url: homeUrl, logo: 'https://images.hostinger.com/b99ae3ca-b659-4117-9d33-00646825d1bd/e69dd672-e1a2-4380-8fb4-455162e72dea.png', description: META[locale].description, email: 'soporte@ynomix.com', founder: { '@type': 'Person', name: 'Carlos Mijangos' }, address: { '@type': 'PostalAddress', addressLocality: 'Bogotá', addressCountry: 'CO' }, sameAs: socialLinks.map(s => s.href) },
+			{ '@context': 'https://schema.org', '@type': 'Organization', name: 'YnomiX', url: homeUrl, logo: 'https://images.hostinger.com/b99ae3ca-b659-4117-9d33-00646825d1bd/e69dd672-e1a2-4380-8fb4-455162e72dea.png', description: META[locale].description, email: 'soporte@ynomix.com', founder: { '@type': 'Person', name: 'Carlos Mijangos' }, address: { '@type': 'PostalAddress', addressLocality: 'Bogotá', addressCountry: 'CO' }, sameAs: ['https://www.youtube.com/@ynomix', 'https://x.com/YnomiX'] },
 			{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs[locale].map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) },
 		],
 	});

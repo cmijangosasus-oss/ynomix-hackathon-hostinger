@@ -18,7 +18,7 @@ export const trialLink: Record<Locale, string> = {
 
 export const products: Record<Locale, Product[]> = {
 	es: [
-		{ name: 'Qadrax', tag: 'Prueba 15 días', number: '01', description: 'Entiende en qué se usa tu dinero. Registra tus movimientos y observa tus hábitos para tomar decisiones con más claridad, de manera personal, grupal o familiar.', purpose: 'Registro del uso del dinero', link: 'Solicitar la prueba de Qadrax', subject: 'Quiero probar Qadrax 15 días', icon: 'wallet' },
+		{ name: 'Qadrax', tag: 'Prueba 15 días', number: '01', description: 'Entiende en qué se usa tu dinero. Registra tus movimientos y observa tus hábitos para tomar decisiones con más claridad, de manera personal, grupal o familiar.', purpose: 'Registro del uso del dinero', link: 'Anotarme en la lista de Qadrax', subject: 'Quiero probar Qadrax 15 días', icon: 'wallet' },
 		{ name: 'AddiX', tag: 'Producto independiente', number: '02', description: 'Mantén la vista en lo que estás construyendo. Monitorea tus ahorros e inversiones y da seguimiento a tus objetivos financieros con una herramienta independiente.', purpose: 'Seguimiento de ahorros e inversiones', link: 'Consultar cómo empezar con AddiX', subject: 'Información sobre AddiX', icon: 'chart' },
 		{ name: 'InfoX', tag: 'Incluido en Qadrax', number: '03', description: 'Noticias financieras, sin perderte entre titulares. Recibe dos reportes semanales con un resumen para mantenerte informado: uno el martes y otro el viernes.', purpose: 'Noticias financieras resumidas', link: 'Consultar los reportes de InfoX', subject: 'Información sobre los reportes de InfoX', icon: 'news' },
 		{ name: 'ConvertiX', tag: 'Gratis', number: '04', description: 'Una herramienta gratuita del ecosistema YnomiX. Consulta con soporte su alcance y cómo acceder a ella antes de incorporarla a tu rutina financiera.', purpose: 'Una herramienta sin costo', link: 'Consultar el acceso a ConvertiX', subject: 'Quiero acceder a ConvertiX', icon: 'convert' },
@@ -33,14 +33,14 @@ export const products: Record<Locale, Product[]> = {
 	],
 };
 
-export type Qa = { question: string; answer: string };
+export type Qa = { question: string; answer: string; link?: { label: string; href: string } };
 
 export const questions: Record<Locale, Qa[]> = {
 	es: [
 		{ question: '¿Qué es YnomiX?', answer: 'YnomiX es una plataforma de productos digitales para entender y manejar el dinero de personas, grupos y familias. Reúne herramientas con propósitos distintos: registrar el uso del dinero, monitorear ahorros e inversiones y mantenerse al día con noticias financieras.' },
 		{ question: '¿Cuánto cuesta Qadrax?', answer: 'Qadrax cuesta USD 25 por 6 meses o USD 39 al año. Los clientes de pago de Qadrax tienen InfoX incluido; AddiX es un producto independiente con su propio precio.' },
-		{ question: '¿Cómo funciona la prueba de 15 días?', answer: 'La prueba de Qadrax te permite conocer la herramienta durante 15 días gratis antes de decidir si se ajusta a tus necesidades. Solicítala a soporte@ynomix.com y consulta las instrucciones de acceso y las condiciones de activación.' },
-		{ question: '¿Cuándo llegan los reportes de InfoX?', answer: 'InfoX ofrece dos reportes de noticias financieras por semana: los martes y los viernes. Está incluido para clientes de pago de Qadrax, para que puedan complementar el registro de su dinero con información financiera resumida.' },
+		{ question: '¿Cómo funciona la prueba de 15 días?', answer: 'La prueba de 15 días gratis comienza cuando se abre tu acceso a Qadrax, que hoy está en lista de espera. Escribe a soporte@ynomix.com para anotarte y te avisamos cuando puedas empezar.' },
+		{ question: '¿Cuándo llegan los reportes de InfoX?', answer: 'InfoX está en lista de espera y se incluye con Qadrax de pago. Cuando se abra tu acceso, recibirás dos reportes de noticias financieras por semana: los martes y los viernes.' },
 	],
 	en: [
 		{ question: 'What is YnomiX?', answer: 'YnomiX is a platform of digital products to understand and manage money for individuals, groups and families. It brings together tools with distinct purposes: tracking how your money is used, monitoring savings and investments, and staying up to date with financial news.' },
@@ -58,6 +58,8 @@ export const faqs: Record<Locale, Qa[]> = {
 		{ question: '¿Qué herramientas son gratuitas?', answer: 'ConvertiX y DigiMoneY son gratuitas. Contacta a soporte para conocer sus funciones y recibir información sobre el acceso.' },
 		{ question: '¿InfoX tiene un costo adicional?', answer: 'InfoX está incluido para clientes de pago de Qadrax. Los reportes se entregan dos veces por semana, los martes y los viernes.' },
 		{ question: '¿Dónde puedo resolver dudas antes de empezar?', answer: 'Escribe a soporte@ynomix.com. Puedes preguntar por el acceso, la prueba, las diferencias entre productos o el período que mejor se ajuste a ti.' },
+		{ question: '¿Qadrax se conecta a mi banco y qué pasa con mis datos?', answer: 'No. Qadrax no se conecta a cuentas bancarias ni te pide claves de ninguna entidad: tú registras tus movimientos manualmente, y tus registros se guardan en el Google Drive de tu propia cuenta. YnomiX no conserva copia de tus datos financieros. Más detalle en la Política de privacidad.', link: { label: 'Política de privacidad', href: '/privacidad' } },
+		{ question: '¿Cómo solicito el acceso o la prueba de 15 días?', answer: 'Escribe a soporte@ynomix.com con tu nombre y tu correo para anotarte en la lista de espera. Respondemos en un máximo de 48 horas y te avisamos cuando se abra tu acceso.' },
 	],
 	en: [
 		{ question: 'What is the difference between Qadrax and AddiX?', answer: 'Qadrax tracks where your money goes; AddiX monitors savings and investments. They work separately, so you can choose the one that fits your need.' },
@@ -66,5 +68,7 @@ export const faqs: Record<Locale, Qa[]> = {
 		{ question: 'Which tools are free?', answer: 'ConvertiX and DigiMoneY are free. Contact support to learn about their features and get information on access.' },
 		{ question: 'Does InfoX cost extra?', answer: 'InfoX is included for paying Qadrax customers. Reports are delivered twice a week, on Tuesdays and Fridays.' },
 		{ question: 'Where can I resolve questions before starting?', answer: 'Write to soporte@ynomix.com. You can ask about access, the trial, the differences between products or the period that best fits you.' },
+		{ question: 'Does Qadrax connect to my bank and what happens to my data?', answer: 'No. Qadrax does not connect to bank accounts or ask for any institution’s keys: you record your transactions manually, and your records are saved in your own Google Drive account. YnomiX does not keep a copy of your financial data. More detail in the Privacy Policy.', link: { label: 'Privacy Policy', href: '/privacidad' } },
+		{ question: 'How do I request access or the 15-day trial?', answer: 'Write to soporte@ynomix.com with your name and email. We respond within 48 hours with the steps to activate your access.' },
 	],
 };

@@ -26,7 +26,7 @@ const strings: Record<Locale, {
 			{ name: 'DigiMoneY', free: true, note: 'Consulta las funciones y el acceso con soporte' },
 		],
 		bottom: 'Primero conoce Qadrax. Después decide si es para ti.',
-		link: 'Solicitar los 15 días gratis',
+		link: 'Anotarme en la lista de Qadrax',
 	},
 	en: {
 		eyebrow: 'CLEAR PRICES, CALM DECISIONS',

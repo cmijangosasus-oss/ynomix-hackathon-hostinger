@@ -9,6 +9,7 @@ export function NotFoundContent() {
 		<main className="not-found">
 			<section className="section not-found-section">
 				<p className="eyebrow"><i />404</p>
+				<img className="not-found-image" src="https://horizons-cdn.hostinger.com/b99ae3ca-b659-4117-9d33-00646825d1bd/f68dc126743e74292d0774a2e0481728.webp" alt="Ilustración de una moneda con signo de interrogación y una lupa junto a barras de ahorro, que representa una página no encontrada" width={1200} height={800} loading="lazy" />
 				<h1>{t.notFoundTitle}</h1>
 				<p className="not-found-text">{t.notFoundText}</p>
 				<a className="button primary" href="/">{t.notFoundCta} <ArrowUpRight size={19} /></a>

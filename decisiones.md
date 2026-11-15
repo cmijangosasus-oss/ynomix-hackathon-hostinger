@@ -13,7 +13,7 @@ Los perfiles de YouTube, Instagram y TikTok todavía no existen. Se quitaron los
 La calculadora consulta un servicio interno del sitio (`/api/convert`) que devuelve las tasas de USD, EUR, COP y MXN junto con la fecha de actualización, que se muestra junto al resultado. Es una referencia informativa, no una cotización de compra o venta.
 
 ## Botones y enlaces
-Los botones de producto llevaban a enlaces `mailto:`, que en equipos sin programa de correo abren un cuadro de diálogo. Se cambiaron para llevar a la página de cada producto, y todas las páginas se enlazan entre sí. Un primer escaneo de Bing Site Scan solo encontró 2 páginas por este motivo; se corrigió y se volvió a lanzar el escaneo, que ahora recorre las 7 páginas con 0 errores y 0 advertencias.
+Los botones de producto llevaban a enlaces `mailto:`, que en equipos sin programa de correo abren un cuadro de diálogo. Se cambiaron para llevar a la página de cada producto, y todas las páginas se enlazan entre sí. Un primer escaneo de Bing Site Scan solo encontró 2 páginas por este motivo; se corrigió y se volvió a lanzar el escaneo, que ahora recorre las 7 páginas que existían entonces (hoy son 8, con la Política de privacidad) con 0 errores y 0 advertencias.
 
 ## robots.txt (limitación de la plataforma)
 Hostinger AI Builder genera el `robots.txt` y la ruta está protegida: no se pueden añadir reglas. El archivo publicado:
@@ -30,3 +30,14 @@ YnomiX · Carlos Mijangos · Bogotá, Colombia · soporte@ynomix.com
 ## Nota sobre robots.txt (confirmada en el código fuente)
 
 En `codigo-fuente/apps/web/src/routes/robots.txt.ts` (generado por la plataforma) la política es explícita: los buscadores y asistentes de respuesta (OAI-SearchBot, ChatGPT-User, Claude-SearchBot, Claude-User, PerplexityBot, etc.) quedan permitidos, y solo se bloquean los agentes de entrenamiento de modelos (GPTBot, ClaudeBot, Google-Extended, Applebot-Extended, meta-externalagent, Amazonbot, Bytespider), con `Content-Signal: search=yes, ai-input=yes, ai-train=no`. Es un valor por defecto de la plataforma y no se pudo cambiar desde el AI Builder.
+
+## AI Visibility Checker de Hostinger (15 de noviembre de 2026)
+
+Se corrió dos veces. La primera dio **73/100 (C)**; se corrigieron dos cosas (404 reales en URLs que no existen y `lastmod` en el sitemap) y la segunda dio **79/100 (B)**, con hallabilidad 16/16, permiso de rastreo 20/20 y legibilidad 18/18. Informes en `evidencia/`.
+
+Lo que queda sin puntos se dejó así a propósito:
+
+- **`telephone`:** no hay teléfono público. No se inventa; queda en el roadmap.
+- **`sameAs`:** se agregó con los dos perfiles oficiales reales (YouTube `@ynomix` y X `@YnomiX`) y enlaces visibles en el pie. Tercer escaneo: **81/100**. LinkedIn y la ficha de Google Business Profile se agregarán cuando existan y estén públicos.
+- **Páginas Acerca, contacto y legales enlazadas:** el sitio enlaza Acerca de y Política de privacidad desde el menú y el pie. El Checker probablemente busca rutas con nombres en inglés o unos términos y condiciones. No se publicaron términos sin revisión legal.
+- **Markdown a pedido, WebMCP y MCP Server Card:** son capacidades opcionales para agentes que actúan dentro del sitio. YnomiX no tiene un servidor MCP; publicar una tarjeta sería declarar algo que no existe.

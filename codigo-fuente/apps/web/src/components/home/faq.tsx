@@ -19,13 +19,26 @@ export function Faq() {
 				<p>{s.sub}</p>
 			</div>
 			<div className="faq-grid">
-				{faqs[locale].map((item, index) => (
-					<article key={item.question}>
-						<span className="faq-number">0{index + 1}</span>
-						<h3>{item.question}</h3>
-						<p>{item.answer}</p>
-					</article>
-				))}
+				{faqs[locale].map((item, index) => {
+					const parts = item.link ? item.answer.split(item.link.label) : null;
+					return (
+						<article key={item.question}>
+							<span className="faq-number">{index + 1 < 10 ? `0${index + 1}` : index + 1}</span>
+							<h3>{item.question}</h3>
+							<p>
+								{parts ? (
+									<>
+										{parts[0]}
+										<a href={item.link!.href}>{item.link!.label}</a>
+										{parts[1]}
+									</>
+								) : (
+									item.answer
+								)}
+							</p>
+						</article>
+					);
+				})}
 			</div>
 		</section>
 	);
