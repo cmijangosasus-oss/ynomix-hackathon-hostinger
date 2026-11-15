@@ -1,0 +1,12 @@
+# YnomiX
+
+> Plataforma de productos digitales para entender y manejar el dinero de personas, grupos y familias. Cinco herramientas: Qadrax, AddiX, InfoX, ConvertiX y DigiMoneY.
+
+## Páginas
+- [YnomiX — Inicio](https://ynomix.com/): Herramientas para entender y manejar tu dinero. Prueba Qadrax 15 días gratis.
+- [Qadrax](https://ynomix.com/qadrax): Trazabilidad del uso de tu dinero. USD 25 por 6 meses o USD 39 al año; incluye InfoX.
+- [AddiX](https://ynomix.com/addix): Monitorea ahorros, inversiones e ingresos. USD 15 por 6 meses o USD 25 al año.
+- [InfoX](https://ynomix.com/infox): Noticias financieras resumidas con IA, los martes y viernes. Incluido con Qadrax de pago.
+- [ConvertiX](https://ynomix.com/convertix): Conversor de divisas gratuito con tasas actualizadas cada día (USD, COP, MXN, EUR).
+- [DigiMoneY](https://ynomix.com/digimoney): Espacio gratuito para aprender blockchain con noticias y recursos educativos.
+- [Acerca de y contacto](https://ynomix.com/acerca-de): Carlos Mijangos, fundador en Bogotá, Colombia. Contacto: soporte@ynomix.com.
