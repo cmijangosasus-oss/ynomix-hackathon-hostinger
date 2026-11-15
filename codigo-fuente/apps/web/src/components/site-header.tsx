@@ -13,6 +13,7 @@ export function SiteHeader() {
 				<a href="/#productos">{t.navProducts}</a>
 				<a href="/#precios">{t.navPricing}</a>
 				<a href="/#preguntas">{t.navFaq}</a>
+				<a href="/blog">Blog</a>
 				<a href="/acerca-de">{t.navAbout}</a>
 			</nav>
 			<div className="header-actions">

@@ -52,4 +52,4 @@ Detalle criterio por criterio en [evidencia/autoevaluacion.md](evidencia/autoeva
 ## Código de la página
 
 - **`codigo-fuente/`**: proyecto original exportado desde Hostinger Horizons (React Router + Vite + Tailwind, TypeScript). Es el código con el que se construyó y publicó el sitio. Se retiró únicamente el archivo `.env` (solo contenía comentarios, sin claves).
-- **`sitio-html/`**: copia del código **publicado** (HTML de las 8 páginas y CSS/JS compilados descargados de `ynomix.com` el 15 de noviembre de 2026), como evidencia de lo que recibe el navegador.
+- **`sitio-html/`**: copia del código **publicado** (HTML de las 8 páginas, el índice del blog y el artículo y CSS/JS compilados descargados de `ynomix.com` el 15 de noviembre de 2026), como evidencia de lo que recibe el navegador.

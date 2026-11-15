@@ -2,7 +2,7 @@ import type { Route } from './+types/sitemap.xml';
 import { siteOrigin } from '@/lib/site-origin.server';
 
 /** Each public page (Spanish only). */
-const PAGES = ['/', '/qadrax', '/addix', '/infox', '/convertix', '/digimoney', '/acerca-de', '/privacidad'];
+const PAGES = ['/', '/qadrax', '/addix', '/infox', '/convertix', '/digimoney', '/acerca-de', '/privacidad', '/blog', '/blog/como-saber-en-que-se-va-tu-dinero'];
 
 function escapeXml(value: string): string {
 	return value

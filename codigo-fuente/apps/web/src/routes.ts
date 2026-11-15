@@ -9,6 +9,8 @@ export default [
 	route('digimoney', 'routes/digimoney.tsx'),
 	route('acerca-de', 'routes/about.tsx'),
 	route('privacidad', 'routes/privacidad.tsx'),
+	route('blog', 'routes/blog.tsx'),
+	route('blog/:slug', 'routes/blog.$slug.tsx'),
 	route('api/convert', 'routes/api.convert.ts'),
 	route('llms.txt', 'routes/llms.txt.ts'),
 	route('sitemap.xml', 'routes/sitemap.xml.ts'),

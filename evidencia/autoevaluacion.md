@@ -1,6 +1,6 @@
 # Autoevaluación contra la rúbrica SEO y AEO
 
-Fecha de la revisión: 15 de noviembre de 2026. Sitio: https://ynomix.com (8 páginas: inicio, 5 productos, Acerca de y Política de privacidad). Cada criterio se valora con 0, 1 o 2 puntos. Las verificaciones se hicieron sobre el HTML publicado con scripts propios, con Lighthouse móvil y con el AI Visibility Checker de Hostinger.
+Fecha de la revisión: 15 de noviembre de 2026. Sitio: https://ynomix.com (8 páginas: inicio, 5 productos, Acerca de y Política de privacidad, más el blog con un artículo). Cada criterio se valora con 0, 1 o 2 puntos. Las verificaciones se hicieron sobre el HTML publicado con scripts propios, con Lighthouse móvil y con el AI Visibility Checker de Hostinger.
 
 ## SEO
 
@@ -49,3 +49,5 @@ Fecha de la revisión: 15 de noviembre de 2026. Sitio: https://ynomix.com (8 pá
   Lo que queda sin puntos es deliberado: `telephone` (no hay teléfono público; no se inventa), Markdown a pedido, WebMCP y MCP Server Card (el sitio no tiene un servidor MCP; publicar una tarjeta sería falso). Informes en `evidencia/`.
 - **Preguntas contestadas por una IA con solo el sitio publicado:** 12 de 13 del mapa de preguntas. La que falta es cómo pagar con tarjeta: hoy no existe ese flujo y no se publica hasta que exista (primer punto del roadmap).
 - **Estado de los productos:** Qadrax, AddiX e InfoX están en lista de espera (Qadrax en pruebas internas); el sitio lo dice en las páginas y en los botones, y la prueba gratuita de 15 días comienza cuando se abre el acceso de cada persona.
+- **Blog:** `/blog` y el artículo `/blog/como-saber-en-que-se-va-tu-dinero` (51 caracteres de título, 148 de descripción, 394 palabras, schema `Article` y `BreadcrumbList`, autor y fecha visibles), enlazados desde el menú y el pie, y listados en el sitemap y en `llms.txt`. Publicado el 15 de noviembre de 2026, después del último escaneo del Checker y de la última medición de Lighthouse; la descripción de `/blog` (66 caracteres) es corta y queda como mejora menor.
+- **Correo profesional:** `soporte@ynomix.com` es un buzón real de Hostinger Mail; se comprobó con un mensaje de prueba enviado y respondido el 15 de noviembre de 2026.

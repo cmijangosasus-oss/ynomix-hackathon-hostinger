@@ -9,5 +9,7 @@
 - [InfoX](https://ynomix.com/infox): Noticias financieras resumidas con IA, los martes y viernes. Incluido con Qadrax de pago.
 - [ConvertiX](https://ynomix.com/convertix): Conversor de divisas gratuito con tasas actualizadas cada día (USD, COP, MXN, EUR).
 - [DigiMoneY](https://ynomix.com/digimoney): Espacio gratuito para aprender blockchain con noticias y recursos educativos.
+- [Blog de YnomiX](https://ynomix.com/blog): Guías prácticas para entender y manejar tu dinero en el día a día.
+- [Cómo saber en qué se va tu dinero cada mes: 5 pasos](https://ynomix.com/blog/como-saber-en-que-se-va-tu-dinero): Método simple en cinco pasos para dejar de llegar a fin de mes sin saber a dónde se fue el dinero.
 - [Acerca de y contacto](https://ynomix.com/acerca-de): Carlos Mijangos, fundador en Bogotá, Colombia. Contacto: soporte@ynomix.com.
 - [Política de privacidad](https://ynomix.com/privacidad): Qué datos recibe YnomiX, para qué se usan y cómo ejercer tus derechos.

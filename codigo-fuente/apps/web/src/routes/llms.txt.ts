@@ -21,6 +21,8 @@ export function loader({ request }: Route.LoaderArgs) {
 		`- [InfoX](${origin}/infox): Noticias financieras resumidas con IA, los martes y viernes. Incluido con Qadrax de pago.`,
 		`- [ConvertiX](${origin}/convertix): Conversor de divisas gratuito con tasas actualizadas cada día (USD, COP, MXN, EUR).`,
 		`- [DigiMoneY](${origin}/digimoney): Espacio gratuito para aprender blockchain con noticias y recursos educativos.`,
+		`- [Blog de YnomiX](${origin}/blog): Guías prácticas para entender y manejar tu dinero en el día a día.`,
+		`- [Cómo saber en qué se va tu dinero cada mes: 5 pasos](${origin}/blog/como-saber-en-que-se-va-tu-dinero): Método simple en cinco pasos para dejar de llegar a fin de mes sin saber a dónde se fue el dinero.`,
 		`- [Acerca de y contacto](${origin}/acerca-de): Carlos Mijangos, fundador en Bogotá, Colombia. Contacto: soporte@ynomix.com.`,
 		`- [Política de privacidad](${origin}/privacidad): Qué datos recibe YnomiX, para qué se usan y cómo ejercer tus derechos.`,
 	];

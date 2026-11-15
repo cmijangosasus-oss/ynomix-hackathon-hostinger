@@ -19,6 +19,7 @@ export function SiteFooter() {
 					<a href="/infox">InfoX <ArrowUpRight size={15} /></a>
 					<a href="/convertix">ConvertiX <ArrowUpRight size={15} /></a>
 					<a href="/digimoney">DigiMoneY <ArrowUpRight size={15} /></a>
+					<a href="/blog">Blog <ArrowUpRight size={15} /></a>
 				</div>
 				<div>
 					<p className="footer-label">{t.footerContact}</p>

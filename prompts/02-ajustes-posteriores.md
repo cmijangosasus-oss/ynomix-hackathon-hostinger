@@ -28,3 +28,5 @@ No agregues páginas nuevas. Publica de nuevo.
 - Preguntas frecuentes nuevas en inicio y en /qadrax (dispositivos, cuenta de Google, datos guardados en el Drive de la persona, soporte en máximo 48 horas).
 - Estado honesto de los productos: Qadrax, AddiX e InfoX en lista de espera; botones "Anotarme en la lista de Qadrax" y menú "Lista de espera".
 - Corrección técnica tras el AI Visibility Checker: 404 real en URLs inexistentes (con `noindex` y una ilustración propia), y `<lastmod>` en las 8 URLs del sitemap.
+- Blog: página `/blog` y primer artículo ("Cómo saber en qué se va tu dinero cada mes: 5 pasos"), con el texto entregado en el prompt para evitar contenido inventado; datos estructurados Article y BreadcrumbList; enlaces en menú y pie, sitemap y llms.txt.
+- Iconos de YouTube y X en el pie y `sameAs` en el schema de la organización.
